@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        legend{
+            color:rgb(159, 9, 9);
+        }
+        fieldset{
+            background-color: #bbc1d4;
+        }
+        button{
+            background-color: grey;
+            color: white;
+        }
+        #resume{
+            background-color: grey;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <center><legend>REGISTRATION FORM</legend></center> <br>
+            <center>
+                <table>
+                    <tr>
+                        <td><label for="firstname">FIRSTNAME</label></td>
+                        <td><input type="text" id="firstname" name="firstname" ></td> 
+                    </tr>  
+                    <tr>
+                        <td><label for="middlename">MIDDLENAME</label></td>
+                        <td><input type="text" id="middlename" name="middlename"></td> 
+                    </tr> 
+                    <tr>
+                        <td><label for="lastname">LASTNAME</label></td>
+                        <td><input type="text" id="lastname" name="lastname"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="username">USERNAME</label></td>
+                        <td><input type="text" id="username" name="username"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="fathername">FATHERNAME</label></td>
+                        <td><input type="text" id="fathername" name="fathername"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="mothername">MOTHERNAME</label></td>
+                        <td><input type="text" id="mothername" name="mothername"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="age">AGE</label></td>
+                        <td><input type="number" id="age" name="age"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="state">STATE</label></td>
+                        <td>
+                            <select name="state" id="state">
+                                <option value="">KERALA</option>
+                                <option value="">KARNATAKA</option>
+                            </select>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td><label for="gender">GENDER</label></td>
+                        <td>
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">MALE</label>
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">FEMALE</label>
+                            <input type="radio" id="other" name="gender">
+                            <label for="other">OTHER</label>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td><label for="phoneno">PHONENO</label></td>
+                        <td><input type="tel" id="phoneno" name="phoneno"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="date">DOB</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="resume">RESUME</label></td>
+                        <td><input type="file" id="resume" name="resume"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="address">ADDRESS</label></td>
+                        <td><textarea name="address" id="address" cols="30" rows="20"></textarea></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit">SUBMIT</button>
+                            <button type="reset">CANCEL</button>
+                        </td>
+                    </tr> 
+                </table>
+            </center>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
